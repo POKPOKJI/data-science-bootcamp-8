@@ -7,9 +7,9 @@ I learned a lot of stuff related to data science skill
 
 this boot camp has many sprints
 
--Intro to data science
--Spreadsheets
--Database (SQL)
+- Intro to data science
+- Spreadsheets
+- Database (SQL)
 - R Programming
 -  Data Transformation
 -  Data Visualization
@@ -19,4 +19,4 @@ this boot camp has many sprints
 -  Essential Python for Data Analyst
 -  Dashboard
 
-You can find me LinkedIn https://www.google.com/
+You can find me on LinkedIn https://www.google.com/
