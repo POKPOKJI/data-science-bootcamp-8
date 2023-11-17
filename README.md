@@ -3,9 +3,9 @@ My data portfolio for data analyst
 
 ## What did I learn from this boot camp
 
-I learned alot of stuff related to data science skill
+I learned a lot of stuff related to data science skill
 
-this boot camp has many sprint
+this boot camp has many sprints
 
 -Intro to data science
 -Spreadsheets
@@ -19,4 +19,4 @@ this boot camp has many sprint
 -  Essential Python for Data Analyst
 -  Dashboard
 
-  
+You can find me LinkedIn https://www.google.com/
