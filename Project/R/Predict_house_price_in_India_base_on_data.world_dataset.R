@@ -1,36 +1,36 @@
 ## Homework for ML live day 1
-### predict house price in India base on data.world dataset 
-### Have to get 3-5 variables for predict
+### Predict house prices in India based on data.world dataset 
+### Have to get 3-5 variables to predict
 
-# install essential library
+# install the essential library
 library(tidyverse)
 library(caret)
 library(readxl)
-# 0. step 0 before train ml model
-# import data set
+# 0. Step 0 before training ml model
+# Import data set
 
 house_price_2016 <- read_excel("House Price India.xlsx",col_names = TRUE,sheet = "House 2016")
 house_price_2017 <- read_excel("House Price India.xlsx",col_names = TRUE,sheet = "House 2017")
-# if dataset has many row , its should keep in list before bind_rows or comerge
+# If dataset has many row, its should keep in list before bind_rows or merge
 house <- list(house_price_2016,house_price_2017)
 full_house <- bind_rows(house)
-# cheack na and modify for easy to transforms 
+# Check na and modify for easy to transform 
 glimpse(full_house)
 nrow(full_house)
 full_house %>%
   complete.cases() %>%
   mean()
-# if mean after complete.cases == 1 it's mean this dataset is no NA
+# if mean after complete.cases == 1 it's means this dataset is no NA
 
 full_house
-# to fix name colums after imported and appear ' ' 
+# to fix name columns after imported and appear ' ' 
 names(full_house) <- gsub(" ", "_", names(full_house))
 # change all name columns to lower letter
 names(full_house) <- tolower(names(full_house))
 
 
 
-## hit check histgram of price for checking Normal distribution
+## Hint check histogram of price for checking Normal distribution
 hist(full_house$price)
 # use log to fix data
 full_house$price <- log(full_house$price)
@@ -46,7 +46,7 @@ full_house_select <- full_house %>%
                                renovation_year,
                                price)                      
 
-# 1. step 1 split data before train ml model
+# 1. Step 1 split data before training ml model
 split_data <- function(df){
   nrow(df)
   n <- nrow(df)
