@@ -19,4 +19,4 @@ this boot camp has many sprints
 -  Essential Python for Data Analyst
 -  Dashboard
 
-You can find me on LinkedIn https://www.linkedin.com/in/pichayud-udomsud/)https://www.linkedin.com/in/pichayud-udomsud/
+You can find me on LinkedIn https://www.linkedin.com/in/pichayud-udomsud/
