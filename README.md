@@ -3,7 +3,7 @@ My data portfolio for data analyst
 
 ## What did I learn from this boot camp
 
-I learned a lot of stuff related to data science skill
+I learned a lot of stuff related to data science & data analytic skill
 
 this boot camp has many sprints
 
