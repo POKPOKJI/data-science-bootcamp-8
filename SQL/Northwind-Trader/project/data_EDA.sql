@@ -131,6 +131,7 @@ SELECT
 	ROUND(AVG(freight),2) as avg_shipping_cost
 FROM orders
 GROUP BY day_of_week;
+-- วันศุกร์ มีค่าส่งโดยเฉลี่ยสูงกว่าคนอื่นอย่างเห็นได้ชัด
 
 -- สินค้าที่ส่ง มี delay บ้างไหม แล้ว shipping ไหนทำ delay มากที่สุด
 WITH delay AS(SELECT
